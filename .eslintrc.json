@@ -1,0 +1,8 @@
+{
+    "extends": ["react-moonstone", "next/core-web-vitals"],
+    "rules": {
+      "jsx-a11y/anchor-is-valid": "warn",
+      "unicorn/prefer-query-selector": "warn"
+    }
+}
+  

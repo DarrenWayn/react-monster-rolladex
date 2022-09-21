@@ -1,6 +1,7 @@
 module.exports = {
   semi: true,
   singleQuote: true,
+  "arrowParens": "avoid",
   jsxSingleQuote: false,
   bracketSpacing: true,
   useTabs: false,
