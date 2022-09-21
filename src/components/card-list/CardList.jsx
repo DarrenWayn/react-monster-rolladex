@@ -4,9 +4,9 @@ import "./CardList.css";
 
 class CardList extends Component {
   render() {
-    const { monsters } = this.props;
+    const { monsters, searchField } = this.props;
     return (
-      <div className="card-list">
+      <div className={searchField.length > 1 ? 'card-list' : 'on-search'}>
         {monsters.map((monster) => {
           return <Card monster={monster} />;
         })}
